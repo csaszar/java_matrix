@@ -7,11 +7,17 @@ public class Matrix_Main {
 		Matrix myMatrix = new Matrix();
 		
 		myMatrix.MatrixPrint();
-		
-		System.out.println("-----------------------");
-		
+		System.out.println(" Fordított kiírás: -----------------------");
 		myMatrix.MatrixMirrorPrint();
-
+		
+		myMatrix.MatrixMirror();
+		System.out.println("1. fordítás után: -----------------------");
+		myMatrix.MatrixPrint();
+		
+		myMatrix.MatrixMirror();
+		System.out.println("2. fordítás után: -----------------------");
+		myMatrix.MatrixPrint();
+		
 	}
 
 }
